@@ -1,0 +1,62 @@
+#intro {
+  height: 100vh;
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: -4rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 100vh;
+  /* width: 100vw; */
+}
+
+.introContent {
+  height: 100vh;
+  padding: 2rem;
+  width: 100vw;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+.introName {
+  color: yellow;
+}
+
+.introHello {
+  font-size: 1.8rem;
+  font-family: 100;
+}
+
+.introPara {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.introBtn {
+  margin-top: 2rem;
+  background-color: white;
+  width: 9rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.fa-suitcase {
+  margin-right: 0.2rem;
+}

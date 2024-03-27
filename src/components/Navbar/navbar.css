@@ -1,0 +1,98 @@
+#navbar {
+  height: 5rem;
+  width:z 100vw;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80rem;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color:  rgb(30, 30, 30);
+}
+
+.logo {
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
+}
+
+.desktopMenuList {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.desktopMenuList:hover {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+.fa-comment {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.desktopBtn {
+  background-color: white;
+  border: none;
+  border-radius: 3rem;
+  padding: 0.6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.active {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+#btnLink.active{
+  color: none;
+  padding-bottom: 0;
+  border:none;
+}
+.MobMenu {
+  object-fit: cover;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: none;
+}
+
+.navMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-height: 15rem;
+  background: rgb(40, 40, 40);
+  border-radius: 1rem;
+}
+
+.navMenuList {
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background: rgb(30, 30, 30);
+}
+
+@media screen and (max-width: 720px) {
+  .MobMenu {
+    display: flex;
+  }
+  .desktopMenu {
+    display: none;
+  }
+  .desktopBtn {
+    display: none;
+  }
+}

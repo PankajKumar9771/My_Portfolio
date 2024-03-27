@@ -1,0 +1,101 @@
+#contactMain {
+  /* min-width: 60rem; */
+  width: 100vh;
+  height: calc(100vh-5rem);
+  margin: 0 auto;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+.clientHeading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.clientDesc {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+.clientImgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.clientImg {
+  height: 5rem;
+  width: 9rem;
+  border-radius: 1rem;
+}
+
+#contactUs {
+  margin-top: 5rem;
+  offset: -50;
+}
+
+.contactHeading {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.contactDesc {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+input,
+textarea {
+  background-color: rgb(50, 50, 50);
+  margin: 2rem 0.2rem 0 0.2rem;
+  padding: 1.2rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(50, 50, 50);
+}
+
+input:focus,
+textarea:focus {
+  outline-color: blue;
+}
+
+.submitBtn {
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 0.6rem 0.3rem;
+  width: 6rem;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.links {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.social i {
+  color: white;
+  font-size: 3rem;
+  margin: 0 1.5rem;
+}
+
+.social i:hover {
+  transform: scale(1.2);
+}

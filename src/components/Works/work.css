@@ -1,0 +1,43 @@
+.works {
+  height: 100vh;
+  width: 100vw;
+  max-width: 65vw;
+  margin: 0 auto;
+  margin-top: 5rem;
+  /* overflow: hidden; */
+}
+
+.port {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.desc {
+  font-size: medium;
+}
+
+.portImages {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.portImg {
+  object-fit: cover;
+  height: 15rem;
+  border-radius: 0.3rem;
+}
+
+.btn {
+  color: black;
+  background: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+}

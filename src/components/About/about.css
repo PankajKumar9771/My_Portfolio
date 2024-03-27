@@ -1,0 +1,55 @@
+#about {
+  max-width: 65rem;
+  width: 100vw;
+  background-color: rgb(30, 30, 30);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.do {
+  text-align: center;
+}
+.heading {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.do p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  /* color: red; */
+}
+
+.skills {
+  padding-top: 1rem;
+}
+
+.skillbar {
+  display: flex;
+  background-color: red;
+  /* flex-direction: column; */
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: rgb(50, 50, 50);
+  border-radius: 1rem;
+}
+
+.skillImg {
+  object-fit: cover;
+  width: 6rem;
+  border-radius: 0.3rem;
+}
+
+.skillContent {
+  padding: 2rem;
+}
+.skillContent h2 {
+  font-weight: 900;
+}
+.skillContent p {
+  font-weight: 100;
+  /* color: gre/y; */
+}
